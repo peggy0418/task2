@@ -22,9 +22,11 @@ input,select{vertical-align:middle}
 * {
   box-sizing: border-box;
 }
+body{
+  width: 1920px;
+}
 header{
   font-family: "Noto Sans TC",serif;
-  width: 1920px;
   margin: 0 auto;
   display: flex;
   justify-content: start;
@@ -35,6 +37,7 @@ header{
 }
 
 .header_menu{
+  max-width: 100%;
   margin-left: 318px;
   display: flex;
   list-style-type: none;
