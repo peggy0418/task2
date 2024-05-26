@@ -55,13 +55,76 @@ header{
   color: #000000;
 }
 .banner{
-margin: 0 auto;
-background: #FAFAFA;
-padding: 80px 0;
-row-gap: 24px;
-display: flex;
-flex-direction: column;
-align-items: center;
+  font-family: "Noto Sans TC",serif;
+  margin: 0 auto;
+  width: 1920px;
+  background: #FAFAFA;
+  padding: 80px 0;
+  row-gap: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.img-banner-left,.img-banner-right{
+  display: flex;
+  width: 72px;
+  height: 72px;
+  position: absolute;
+}
+.img-banner-left{
+  left:33%;
+  top:8%;
+}
+.img-banner-right{
+  bottom:40%;
+  right:34%;
+}
+.img-mark1{
+  position: absolute;
+  right: 35%;
+  top:26%
+}
+.img-mark2{
+  position: absolute;
+  right: 37%;
+  bottom:55%
+}
+.banner>p{
+  font-size: 24px;
+  column-gap: 16px;
+}
+.banner-down{
+  margin-top: 24px;
+  display: flex;
+  column-gap: 40px;
+}
+
+.exp{
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 8px;
+}
+h2{
+  color: #5b5b5b;
+  margin-bottom: 8px;
+  position: relative;
+  padding-bottom: 4px;
+}
+.exp>h2::after{
+  content:"";
+  width: 24px;
+  height: 2px;
+  background: #C1C1C1;
+  position:absolute;
+  top:100%;
+  left:45%;
+}
+.exp>p{
+  line-height: 24px;
+  color:#3B3B3B;
 }
 footer {
   display: flex;
