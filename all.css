@@ -25,6 +25,7 @@ input,select{vertical-align:middle}
 body{
   width: 1920px;
 }
+
 header{
   font-family: "Noto Sans TC",serif;
   margin: 0 auto;
@@ -35,7 +36,6 @@ header{
   border-bottom: 1px solid #F1F1F1 ;
 
 }
-
 .header_menu{
   max-width: 100%;
   margin-left: 318px;
@@ -53,6 +53,15 @@ header{
 .header_menu>li>a{
   text-decoration: none;
   color: #000000;
+}
+.banner{
+margin: 0 auto;
+background: #FAFAFA;
+padding: 80px 0;
+row-gap: 24px;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 footer {
   display: flex;
