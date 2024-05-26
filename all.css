@@ -98,6 +98,7 @@ header{
   margin-bottom: 16px;
 }
 .banner-down{
+  width:636px;
   margin-top: 24px;
   display: flex;
   column-gap: 40px;
@@ -128,6 +129,7 @@ h2{
 .exp>p{
   line-height: 24px;
   color:#3B3B3B;
+  row-gap: 8px;
 }
 footer {
   display: flex;
