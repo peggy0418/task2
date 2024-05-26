@@ -64,7 +64,10 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.banner-up{
   position: relative;
+  text-align: center;
 }
 .img-banner-left,.img-banner-right{
   display: flex;
@@ -73,26 +76,26 @@ header{
   position: absolute;
 }
 .img-banner-left{
-  left:33%;
-  top:8%;
+  left:-15%;
+  top:-50%;
 }
 .img-banner-right{
-  bottom:40%;
-  right:34%;
+  bottom:-50%;
+  right:-10%;
 }
 .img-mark1{
   position: absolute;
-  right: 35%;
-  top:26%
+  right: -3%;
+  top:20%;
 }
 .img-mark2{
   position: absolute;
-  right: 37%;
-  bottom:55%
+  right: 0;
+  bottom:10%
 }
-.banner>p{
+.banner-up>p{
   font-size: 24px;
-  column-gap: 16px;
+  margin-bottom: 16px;
 }
 .banner-down{
   margin-top: 24px;
